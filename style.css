@@ -51,6 +51,7 @@ body{
    border-radius: 20px;
     box-shadow: 1px 1px 10px 1px;
 
+
 }
 .i{
     
@@ -59,13 +60,6 @@ body{
 
   
   }
-.upp{
-    width: 50px;
-    height: 50px;
-    padding: 10px;
-display: none;
-
-}
 
 hr{
     width: 10%;
@@ -235,6 +229,8 @@ display: inline-block;
     position: fixed;
         right: 0;
         bottom: 5px;
+   
+        border-radius: 50%;
 
 }
     .school{
@@ -314,6 +310,7 @@ display: inline-block;
     position: fixed;
         right: 0;
         bottom: 5px;
+                border-radius: 50%;
 
 }
     .school{
