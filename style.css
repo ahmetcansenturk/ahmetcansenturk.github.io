@@ -144,7 +144,7 @@ display: inline-block;
 .project{
  
     width: 100%;
-    min-height: 700px;
+   height: auto;
 
     
 }
@@ -181,9 +181,30 @@ padding: 5px;
         box-shadow: 1px 1px 10px 1px;
 }
    
+.github{
+    width: 100%;
+
+    background-color: white;
+    margin: auto;
+    opacity: .7;
  
-           
-           
+
+}
+.github img{
+     width: 10%;
+      
+      border-radius: 50%;
+    
+}
+     
+.github:hover{
+ 
+ opacity: .9;
+}
+  .github img:hover{
+ 
+    
+}
     
 
 .footer{
@@ -209,11 +230,12 @@ color: white;
  border-radius: 20px;
 }
 .footer p{
+    
 height: 100%;
     width: 100%;
     border-bottom-left-radius:20px;
     border-bottom-right-radius:20px;
-    
+
 }
 
 .bg{
@@ -235,9 +257,15 @@ display: inline-block;
 }
     .school{
     width:100%;
-    
+      border-bottom-right-radius: 10px; 
+    border-bottom-left-radius: 10px; 
         display: inline-block;
 }
+.school ul {
+    margin: 0;
+   
+}
+
     .project{
 padding: 10px;
   overflow: auto;
@@ -275,28 +303,51 @@ color: black;
     
 }
 }
-.galeri{
-    width: 100%;
-    height:3000px;
-    background-size:cover; 
 
-}
-.galeri img{
-   width: 50%;
-    height: 50%;
-}
 .bigcard{
     
     width: 100%;
-    height: 1000px;
+    height: auto;
      background-size: auto;
-    margin-bottom: 50px;
+padding: 10px;
 }
+.bigcard img{
+    
+   max-width: 50%;
+    height: 200px;;
+     background-size: auto;
+padding: 5px;
+    float: left;
+}
+.bigcard p{
+    display: inline-block;
+width: 80%;
+    text-align: center;
 
+}
+.kucukresim{
+        display: inline-block;
+        width: 45px;
+        height: 45px;
+          border-radius: 50%;
+        margin: 10px;
+    
+    }
+     .kucukresim img{
+        width: 100%;
+        height: 100%;
+       
+        background-size: contain;
+    }
 @media only screen and (min-width:600px){
     .about{
 width:100%;
-display: block;
+display: inline-block;
+            opacity: .8;
+    border-radius: 10px;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-left-color: black;
 
 
 }
@@ -313,6 +364,20 @@ display: inline-block;
                 border-radius: 50%;
 
 }
+    .kucukresim{
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+          border-radius: 50%;
+        margin: 10px;
+    
+    }
+     .kucukresim img{
+        width: 100%;
+        height: 100%;
+       
+        background-size: contain;
+    }
     .school{
     width:100%;
     
@@ -356,6 +421,7 @@ border-style: solid;
     
 }
 }
+
 @media only screen and (min-width: 900px){
 
    .school{background-color: white;
